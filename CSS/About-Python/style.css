@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#container {
+  width: 970px;
+  min-height: 600px;
+  background-color: #245076;
+  margin: 0 auto;
+}
+ /* Header */
+  header {
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+    header img {
+      width: 350px;
+      margin: 15px 25px;
+    }
+
+    /* Header Right Side */
+    header .header-right {
+      text-align: right;
+      font-size: 11pt;
+      margin-bottom: 25px;
+      margin-right: 5px;
+    }
+      /* Text Size */
+      .header-right .text {
+        color: white;
+        margin-right: 45px;
+      }
+      .header-right .text a{
+        color: #FED32F;
+        background-color: none;
+      }
+      .header-right .text .divider {
+        color: black;
+      }
+      /* Search Bar */
+      .header-right .search-bar {
+        margin-top: 3px;
+        margin-right: 15px;
+        padding: 15px 35px 15px 40px;
+        background-color: #444444;
+        border-radius: 2mm;
+        box-shadow: 2px 2px 0px 0px black;
+      }
+        .search-bar input {
+          text-align: center;
+          padding: 7px 0;
+          border-width: 2px;
+          border-color: gray;
+        }
+        .search-bar button {
+          padding: 5px 8px;
+          color: white;
+          background-color: #245076;
+          border-color: whitesmoke;
+          border-radius: 1mm;
+          box-shadow: 0 1px 1px 0 black;
+        }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: #3D7AAD;
+    margin: 0 30px 20px 70px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16pt;
+    border-radius: 2mm;
+    box-shadow: 2px 2px 2px 0 black;
+  }
+    nav ul {
+      display: flex;
+      justify-content: space-evenly;
+    }
+      nav ul li {
+        display: inline-block;
+        vertical-align: top;
+
+      }
+        nav ul li a{
+          text-decoration: none;
+          color: white
+        }
+
+  /* Main - Top */
+  main {
+  }
+    main .section-left {
+      width: 200px;
+      display: inline-block;
+      vertical-align: top;
+      margin: 20px 20px 0px 100px;
+      text-align: center;
+    }
+      main .section-left ul {
+        display: inline-block;
+        text-align: center;
+        list-style: none;
+      }
+      main .section-left ul li{
+        color: white;
+        margin: 10px;
+      }
+      main .section-left ul li::before{
+        color: yellow;
+        content: "\00BB";
+        margin: 10px;
+      }
+      main .section-left ul li a{
+        color: white;
+      }
+    main .section-right {
+      width: 580px;
+      text-align: center;
+      display: inline-block;
+    }
+      .section-right p.first-paragraph {
+        color: white;
+        font-size: 10pt;
+      }
+      .section-right .second-paragraph {
+        color: #E5C43A;
+        font-style: italic;
+        font-size: 14pt;
+        margin-bottom: 10px;
+      }
+        .section-right .second-paragraph p{
+          margin: 6px;
+        }
+      .section-right .third-paragraph {
+        color: white;
+        font-size: 12pt;
+        margin-bottom: 20px;
+      }
+
+    /* Article - Bottom */
+    article {
+      background-color: white;
+      /* display: flex;
+      justify-content: space-evenly; */
+      text-align: center;
+      padding: 10px;
+      padding-left: 125px;
+    }
+    .article-section {
+      width: 265px;
+      display: inline-block;
+      vertical-align: top;
+      font-size: 10.5pt;
+      padding: 0px 100px 0px 23px;
+      margin-right: 25px;
+      border-top: 4px solid #75A8D5;
+    }
+      .article-section h3 {
+        padding: 5px 0 7px;
+      }
+      .article-section p span {
+        color: #77A9D6;
+        font-size: 9pt;
+      }
+      .article-section ul {
+        list-style-type: square;
+        width: 250px;
+        margin-left: 27px;
+      }
+        .article-section ul li {
+          padding: 3px 0;
+        }
+        .article-section ul li span{
+          color: #77A9D6;
+        }
+  
+  /* Footer */
+  footer {
+    min-height: 60px;
+    background: linear-gradient(to bottom, #345C80, #407DB1);
+  }
+    footer .footer-top ul{
+      font-size: 14pt;
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      opacity: .5;
+      padding: 45px 0px 5px 0px;
+    }
+      footer .footer-top ul li{
+        color: white;
+        margin: 0 20px;
+      }
+
+    footer .footer-bottom {
+      text-align: center;
+      font-size: 7pt;
+      color: white;
+      opacity: .5;
+      margin-top: 20px;
+      margin-bottom: 3px;
+    }

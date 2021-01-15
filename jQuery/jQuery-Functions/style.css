@@ -1,0 +1,24 @@
+.section{
+  border: 2px solid black;
+  text-align: center;
+}
+.section button{
+  display: inline-block;
+  vertical-align: center;
+  margin-right: 40px;
+}
+.section .right-side{
+  display: inline-block;
+  vertical-align: center;
+  text-align: center;
+}
+.show{
+  display: none;
+}
+.fade-in{
+  display:none;
+}
+.selected{
+  color: purple;
+}
+

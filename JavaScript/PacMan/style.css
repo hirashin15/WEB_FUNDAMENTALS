@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+}
+div#world{
+  position: relative;
+}
+div.row {
+  height: 20px;
+}
+div.row div{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+div.brick{
+  background-color: blue;
+}
+div.coin{
+  background-image: url('coin.gif');
+  background-size: 20px 20px;
+}
+div.cherry{
+  background-image: url('cherry.png');
+  background-size: 20px 20px;
+}
+div#pacman{
+  background-image: url('pacman.gif');
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+
+}
+div.empty{
+   
+}
+div#score{
+  border: 1px solid white;
+  width: 30px;
+  height: 30px;
+  color: white;
+  padding: 7px;
+  text-align: center;
+}

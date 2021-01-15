@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.images{
+  width: 1000px;
+}
+img{
+  width: 100px;
+  height: 100px;
+}
+aside{
+  border: 20px solid red;
+  width: 250px;
+  height: 400px;
+}
+img.aside{
+  margin-left: 75px;
+}
+aside h2{
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+.hidden{
+  display: none;
+  margin: 10px 20px;
+}
+.height{
+  margin: 5px 20px;
+}
+.weight{
+  margin: 5px 20px;
+}
+ul{
+  margin-bottom: 20px;
+}
+li{
+  margin-left: 40px;
+}
